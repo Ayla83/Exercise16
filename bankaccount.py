@@ -29,3 +29,5 @@ class Bankacc:
             print("Unable to withdraw £", amount, ", funds unavailable", err)
         else:
             print("Account number:", self._name, "Withdrawn: £", amount)
+        finally:
+            self.statebalance()

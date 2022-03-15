@@ -18,4 +18,3 @@ class Savacc(Bankacc):
         if 0 <= newrate <= 100:
             self.rate = newrate
             print("Account number:", self._name, "Your new interest rate is:", self.rate, "%")
-            
